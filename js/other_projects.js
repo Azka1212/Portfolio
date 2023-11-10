@@ -1,5 +1,5 @@
 async function get_repos(){
-    let result = await fetch("https://api.github.com/users/ali-haidir/repos");
+    let result = await fetch("https://api.github.com/users/Azka1212/repos");
     let responce = await result.json();
 
     return responce;
