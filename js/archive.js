@@ -36,7 +36,7 @@ function for_other_projects(data){
         <p>
         ${result.description}
         </p>
-        <a id="latest_projects_anchor" href="https://github.com/"><i class="bx bx-link-external"></i></a>
+        <a id="latest_projects_anchor" href="${result.html_url}"><i class="bx bx-link-external"></i></a>
         </div>
         </div>
         `;
