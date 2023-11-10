@@ -163,7 +163,7 @@ function toggle_discription(id){
         document.getElementById(7).style.color = "white";
     }
     if(id == 5){
-        a.style.display="block";
+        a.style.display="none";
         b.style.display="none";
         c.style.display="none";
         d.style.display="none";
@@ -200,7 +200,7 @@ function toggle_discription(id){
         a.style.display="none";
         b.style.display="none";
         c.style.display="none";
-        d.style.display="noe";
+        d.style.display="none";
         e.style.display="none";
         f.style.display="none";
         g.style.display="block";
