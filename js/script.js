@@ -86,31 +86,131 @@ const sendMail = ()=>{
 }
 
 function toggle_discription(id){
-    var x = document.getElementById("Huawei");
-    var y = document.getElementById("Greenvorxs");
-    var z = document.getElementById("NTC");
+    var a = document.getElementById("Switch Communications");
+    var b = document.getElementById("Teeny Coders");
+    var c = document.getElementById("Dawlance");
+    var d = document.getElementById("10 Pearls");
+    var e = document.getElementById("National Cybercrime Forensics Lab");
+    var f = document.getElementById("GlobalShala");
+    var g = document.getElementById("Mindstorm Studios");
+    
     if(id == 1){
-        x.style.display="block";
-        y.style.display="none";
-        z.style.display="none";
+        a.style.display="block";
+        b.style.display="none";
+        c.style.display="none";
+        d.style.display="none";
+        e.style.display="none";
+        f.style.display="none";
+        g.style.display="none";
+
         document.getElementById(1).style.color = "#0ef";
         document.getElementById(2).style.color = "white";
         document.getElementById(3).style.color = "white";
+        document.getElementById(4).style.color = "white";
+        document.getElementById(5).style.color = "white";
+        document.getElementById(6).style.color = "white";
+        document.getElementById(7).style.color = "white";
     }
     if(id == 2){
-        y.style.display="block";
-        x.style.display="none";
-        z.style.display="none";
+        a.style.display="none";
+        b.style.display="block";
+        c.style.display="none";
+        d.style.display="noe";
+        e.style.display="none";
+        f.style.display="none";
+        g.style.display="none";
+
         document.getElementById(1).style.color = "white";
         document.getElementById(2).style.color = "#0ef";
         document.getElementById(3).style.color = "white";
+        document.getElementById(4).style.color = "white";
+        document.getElementById(5).style.color = "white";
+        document.getElementById(6).style.color = "white";
+        document.getElementById(7).style.color = "white";
     }
     if(id == 3){
-        z.style.display="block";
-        y.style.display="none";
-        x.style.display="none";
+        a.style.display="none";
+        b.style.display="none";
+        c.style.display="block";
+        d.style.display="noe";
+        e.style.display="none";
+        f.style.display="none";
+        g.style.display="none";
+
         document.getElementById(1).style.color = "white";
         document.getElementById(2).style.color = "white";
         document.getElementById(3).style.color = "#0ef";
+        document.getElementById(4).style.color = "white";
+        document.getElementById(5).style.color = "white";
+        document.getElementById(6).style.color = "white";
+        document.getElementById(7).style.color = "white";
+    }
+    if(id == 4){
+        a.style.display="none";
+        b.style.display="none";
+        c.style.display="none";
+        d.style.display="block";
+        e.style.display="none";
+        f.style.display="none";
+        g.style.display="none";
+
+        document.getElementById(1).style.color = "white";
+        document.getElementById(2).style.color = "white";
+        document.getElementById(3).style.color = "white";
+        document.getElementById(4).style.color = "#0ef";
+        document.getElementById(5).style.color = "white";
+        document.getElementById(6).style.color = "white";
+        document.getElementById(7).style.color = "white";
+    }
+    if(id == 5){
+        a.style.display="block";
+        b.style.display="none";
+        c.style.display="none";
+        d.style.display="none";
+        e.style.display="block";
+        f.style.display="none";
+        g.style.display="none";
+
+        document.getElementById(1).style.color = "white";
+        document.getElementById(2).style.color = "white";
+        document.getElementById(3).style.color = "white";
+        document.getElementById(4).style.color = "white";
+        document.getElementById(5).style.color = "#0ef";
+        document.getElementById(6).style.color = "white";
+        document.getElementById(7).style.color = "white";
+    }
+    if(id == 6){
+        a.style.display="none";
+        b.style.display="none";
+        c.style.display="none";
+        d.style.display="none";
+        e.style.display="none";
+        f.style.display="block";
+        g.style.display="none";
+
+        document.getElementById(1).style.color = "white";
+        document.getElementById(2).style.color = "white";
+        document.getElementById(3).style.color = "white";
+        document.getElementById(4).style.color = "white";
+        document.getElementById(5).style.color = "white";
+        document.getElementById(6).style.color = "#0ef";
+        document.getElementById(7).style.color = "white";
+    }
+    if(id == 7){
+        a.style.display="none";
+        b.style.display="none";
+        c.style.display="none";
+        d.style.display="noe";
+        e.style.display="none";
+        f.style.display="none";
+        g.style.display="block";
+
+        document.getElementById(1).style.color = "white";
+        document.getElementById(2).style.color = "white";
+        document.getElementById(3).style.color = "white";
+        document.getElementById(4).style.color = "white";
+        document.getElementById(5).style.color = "white";
+        document.getElementById(6).style.color = "white";
+        document.getElementById(7).style.color = "#0ef";
     }
 }
