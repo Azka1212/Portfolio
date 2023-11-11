@@ -324,18 +324,35 @@ specialist and expert in the fields of Data Innovation, AI, and Information Inve
     <section class="contact" id="contact">
         <h2 class="contact-heading" id="contact-heading">Contact <span>Me</span></h2>
 
-        <form action="#" id="contact-form">
+
+<!--         test -->
+
+<!-- modify this form HTML and place wherever you want your form -->
+<form
+  action="https://formspree.io/f/mbjverov"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
+        
+<!--         test -->
+
+        <form action="https://formspree.io/f/mbjverov" method="POST" id="contact-form">
             <div class="input-box">
-                <input type="text" placeholder="Full Name">
                 <input type="email" placeholder="Email Address">
             </div>
 
-            <div class="input-box">
-                <input type="text" placeholder="Mobile Number">
-                <input type="email" placeholder="Email Subject">
-            </div>
-
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <button type="submit">Send</button>
 
         </form>
 
