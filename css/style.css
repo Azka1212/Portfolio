@@ -12,7 +12,7 @@
 :root {
   --background-color: #E9F1FA; /* Light blue background */
   --second-bg-color: #0a1612; /* Dark blue background */
-  --text-color: #ffffff; /* White text */
+  --text-color: #000000; /* Black text */
   --main-color: #3498db; /* Main blue color */
 }
 
